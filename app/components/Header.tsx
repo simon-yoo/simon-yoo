@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { RxCross2 } from 'react-icons/rx'
@@ -14,7 +16,7 @@ const Header: React.FC = () => {
   return (
     <>
       <div className='hidden lg:block bg-browny'>
-        <Menu toggleMenu={toggleMenu} />
+        <Menu />
       </div>
       <div className='w-screen flex justify-end'>
         {!navOpened && (
