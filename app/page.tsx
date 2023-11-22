@@ -6,7 +6,7 @@ import { TbBrandTypescript } from 'react-icons/tb'
 function Home() {
   return (
     <>
-      <div className='flex flex-col xl:flex-row  items-center justify-center text-center'>
+      <div className='h-full flex flex-col xl:flex-row  items-center justify-center text-center mt-14 mb-14'>
         <div className='relative w-[350px] h-[350px] sm:w-[450px] sm:h-[450px] lg:w-[600px] lg:h-[600px] m-12 shadow-2xl'>
           <Image
             className='rounded-sm bject-cover'
