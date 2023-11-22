@@ -8,6 +8,10 @@ body,
   height: 100%;
 }
 
-:root {
+body {
   background-color: #faf8f1;
+  color: #0a1520;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Playfair Display', serif;
+  min-height: max-content;
 }
