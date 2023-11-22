@@ -35,10 +35,10 @@ function Home() {
       </div>
 
       <div className='flex justify-center mb-10 mt-10'>
-        <BiLogoNodejs className='skill' size={40} color={'#403d39'} />
-        <BiLogoJavascript className='skill' size={40} color={'#403d39'} />
-        <BiLogoReact className='skill' size={40} color={'#403d39'} />
-        <TbBrandTypescript className='skill' size={40} color={'#403d39'} />
+        <BiLogoNodejs className='m-4' size={40} color={'#403d39'} />
+        <BiLogoJavascript className='m-4' size={40} color={'#403d39'} />
+        <BiLogoReact className='m-4' size={40} color={'#403d39'} />
+        <TbBrandTypescript className='m-4' size={40} color={'#403d39'} />
       </div>
 
       <div className='shadow-2xl'>{/* <Projects /> */}</div>
