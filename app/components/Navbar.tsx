@@ -1,35 +1,27 @@
-import { useNavigate } from 'react-router-dom'
+'use client'
+
+import Link from 'next/link'
+
 // Import Tailwind CSS in your main TypeScript file
 
-interface Props {
-  toggleMenu: () => void
-}
-
-function Navbar(props: Props) {
-  const navigate = useNavigate()
-
-  function goTo(link: string) {
-    props.toggleMenu()
-    navigate(link)
-  }
-
+function Navbar() {
   return (
     <>
       <nav className='w-[300px] text-d_color bg-browny h-[300px] rounded-lg shadow-2xl'>
         <ul className='w-full h-full flex flex-col items-center justify-around text-2xl'>
           <li className=' hover:text-3xl duration-300 link link-underline link-underline-black'>
-            <button className=' ' onClick={() => goTo('/')}>
-              Home
+            <button className=' '>
+              <Link href='/'>Home</Link>
             </button>
           </li>
           <li className=' hover:text-3xl duraion-300 link link-underline link-underline-black'>
-            <button className='' onClick={() => goTo('/projects')}>
-              Projects
+            <button className=' '>
+              <Link href='/projects'>Projects</Link>
             </button>
           </li>
           <li className=' hover:text-3xl duraion-300 link link-underline link-underline-black'>
-            <button className='' onClick={() => goTo('/contact')}>
-              Contact
+            <button className=' '>
+              <Link href='/contact'>Contact</Link>
             </button>
           </li>
         </ul>
