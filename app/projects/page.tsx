@@ -1,13 +1,11 @@
-import Cv from './components/Cv'
 import Project from './components/Project'
 
 function ProjectsPage() {
   return (
     <div className='pb-[200px] h-full'>
       <div className=' flex justify-center'>
-        <div className='flex rounded-lg justify-center items-center border-4 p-4 w-[150px] border-browny cursor-pointer duration-700 hover:scale-110 hover:bg-browny hover:text-d_color my-[100px]'>
-          <Cv />
-        </div>
+        {/* <div className='flex rounded-lg justify-center items-center border-4 p-4 w-[150px] border-browny cursor-pointer duration-700 hover:scale-110 hover:bg-browny hover:text-d_color my-[100px]'>
+        </div> */}
       </div>
       <div className='flex flex-col items-center justify-center text-center border-b border-b-browny  m-10 p-10'>
         <h3 className='flex text-2xl md:text-4xl m-8'>My Projects</h3>
